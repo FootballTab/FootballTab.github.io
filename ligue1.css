@@ -1,0 +1,183 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+	background-color: #f2f2f2;
+}
+
+.Title{
+	font-size: 50px;
+	text-align: center;
+	font-family:  Comic Sans MS;
+	color: white;
+}
+
+.SmallTitle{
+	text-align: center;
+	color: white;
+	font-family: Comic Sans MS;
+	font-size: 14px;
+}
+
+#Menu{
+   height: 40%;
+   padding: 80px 0px;
+   background-color: #4CAF50;
+   width: 100%;
+   box-shadow: 1px 3px 6px 3px #ababab;
+   
+}
+
+.MenuBar a{
+    color: #e6e6e6;
+   padding-right: 40px;
+   text-decoration: none;
+   font-family: arial;
+   padding: 15px 80px;
+   font-weight: bold;
+    
+}
+
+.MenuBar{
+	margin: 91px 0px 0px 0px;
+	padding: 15px;
+	background-color: #4CAF50;
+	text-align: center;
+	width: 100%;
+	
+}
+
+.MenuBar a:hover{
+	transition: 0.5s;
+    font-weight: bold;
+    color: white;
+    border-bottom: 3px solid white; 
+}
+
+.Germany:hover{
+	background-image: url(images/Germany.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.England:hover{
+	background-image: url(images/England.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.Spain:hover{
+	background-image: url(images/Spain.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.Italy:hover{
+	background-image: url(images/Italy.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.Ligue{
+	color: #404040;
+	font-size: 50px;
+	font-family: Comic Sans MS;
+	text-align: center;
+	margin: 50px 0px 5px 0px;
+}
+
+#LastMatches{
+	width: 50%;
+	border-collapse: collapse;
+
+}
+
+#LastMatches td,#LastMatches tr {
+	text-align: center;
+	color: #404040;
+	font-size: 25px;
+	font-family: calibri;
+	
+}
+
+#LastMatches tr:nth-child(even){
+	background-color: #ddd;
+}
+
+#LastMatches tr:hover{
+	background-color: #4CAF50;
+	color: white;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.matches{
+	color: #404040;
+	font-size: 30px;
+	font-family: Comic Sans MS;
+	margin: 50px 0px 10px 400px;
+}
+
+#tabulka{
+	text-align: center;
+	width: 60%;
+	font-size: 25px;
+	font-family: calibri;
+	border-collapse: collapse;
+	border-bottom: 3px solid #b3b3b3;
+}
+
+#tabulka tr,#tabulka td{
+	border-left: 3px solid #b3b3b3;
+	padding: 5px;
+	border-right: 3px solid #b3b3b3;
+
+}
+
+#tabulka thead{
+	background-color: #4CAF50;
+	color: white;
+    border: 3px solid #b3b3b3;
+}
+
+#tabulka th{
+	padding: 12px;
+}
+
+#tabulka tr:nth-child(even){
+	background-color: #ddd;
+}
+
+#tabulka tr:hover{
+	background-color: #4CAF50;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.table{
+	color: #404040;
+	font-size: 30px;
+	font-family: Comic Sans MS;
+	margin: 50px 0px 10px 400px;
+
+}
+
+.date{
+	padding: 0px;
+	margin: 0px 0px 0px 290px;
+	position: absolute;
+	color: #404040;
+	font-size: 25px;
+	font-family: Comic Sans MS;
+}
+
+.date2{
+	padding: 0px;
+	margin: 30px 0px 0px 300px;
+	position: absolute;
+	color: #404040;
+	font-size: 25px;
+	font-family: Comic Sans MS;
+}
