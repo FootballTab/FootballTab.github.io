@@ -1,0 +1,165 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+	background-color: #f2f2f2;
+}
+
+.Title{
+	font-size: 50px;
+	text-align: center;
+	font-family:  Comic Sans MS;
+	color: white;
+}
+
+.SmallTitle{
+	text-align: center;
+	color: white;
+	font-family: Comic Sans MS;
+	font-size: 14px;
+}
+
+#Menu{
+   height: 40%;
+   padding: 80px 0px;
+   background-color: #4CAF50;
+   width: 100%;
+   box-shadow: 1px 3px 6px 3px #ababab;
+   
+}
+
+.MenuBar a{
+    color: #e6e6e6;
+   padding-right: 40px;
+   text-decoration: none;
+   font-family: arial;
+   padding: 15px 80px;
+   font-weight: bold;
+   
+}
+
+.MenuBar{
+	margin: 98px 0px 0px 0px;
+	padding: 15px;
+	background-color: ##4CAF50;
+	text-align: center;
+	width: 100%;
+	
+}
+
+.MenuBar a:hover{
+	transition: 0.5s;
+    font-weight: bold;
+    color: white;
+    border-bottom: 3px solid white; 
+}
+
+.Germany:hover{
+	background-image: url(images/Germany.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.France:hover{
+	background-image: url(images/France.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.Spain:hover{
+	background-image: url(images/Spain.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.Italy:hover{
+	background-image: url(images/Italy.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.England:hover{
+	background-image: url(images/England.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.NameNovinky{
+
+	font-family: Comic Sans MS;
+	color: #303030;
+	margin: 25px 0px 0px 75px;
+}
+
+.Alert{
+	padding: 15px 18px;
+	background-color: #4CAF50;
+	width: 340px;
+	margin: 15px 0px 0px 40px;
+	color: white;
+	box-shadow: 3px 3px 6px #ababab;
+	font-family: calibri;
+    border-radius: 5px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.Novinky{
+    margin-top: 15px;
+	height: 500px;
+	width: 420px;
+}
+
+.NameZapasy{
+	font-family: Comic Sans MS;
+	color: #303030;
+	margin: -500px 0px 0px 600px;
+}
+
+.Zapasy{
+	width: 800px;
+	padding: 15px 10px;
+	background-color: white;
+	margin: 15px 0px 0px 500px;
+	border-radius: 40px;
+	box-shadow: 3px 3px 6px #ababab;
+	border: 3px solid #4CAF50;
+	text-align: center;
+	font-family: Comic Sans MS;
+	font-size: 23px;
+	color: #303030;
+	animation-name: background;
+	animation-iteration-count: 1000000000000000;
+	-webkit-animation-name: background;
+	-webkit-animation-iteration-count: 1000000000000000;
+	animation-duration: 3s;
+	cursor: pointer;
+}
+
+.link a{
+	text-decoration: none;
+	font-family: Comic Sans MS;
+	font-size: 23px;
+	color: #303030;
+	margin: 0px 150px 0px -200px; 
+	cursor: pointer;
+}
+
+.link a:hover{
+	text-decoration: underline;
+}
+
+@keyframes background{
+	0% {background-color: #f2f2f2;}
+        50% {background-color: #4CAF50;}
+        100% {background-color: #f2f2f2;}
+}
+
+-webkit-@keyframes background{
+	0% {background-color: #f2f2f2;}
+	50% {background-color: #4CAF50;}
+	100% {background-color: #f2f2f2;}
+}
+
